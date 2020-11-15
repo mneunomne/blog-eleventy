@@ -1,8 +1,8 @@
 ---
 layout: homepage.liquid
-title: Horsin' Around
+title: mneunomne blog
 ---
 
-## Welcome to Hollywoo
+## notes
 
-Hello. I am BoJack. Horseman, obviously
+references, ideas, writings
