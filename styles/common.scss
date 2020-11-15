@@ -1,11 +1,11 @@
 ::selection {
   color: white;
-  background-color: brown;
+  background-color: black;
 }
 
 ::-moz-selection {
   color: white;
-  background-color: brown;
+  background-color: gray;
 }
 
 * {
@@ -20,18 +20,18 @@ body {
 }
 
 .container {
-  margin: 40px 32%;
+  margin: 21px 2%;
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: brown;
+    color: gray;
     border-left: 0.25em solid;
   }
 }
 
 a {
   text-decoration: none;
-  color: brown;
+  color: gray;
 
   &:hover {
     cursor: pointer;
