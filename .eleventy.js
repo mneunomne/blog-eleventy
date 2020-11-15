@@ -12,6 +12,10 @@ module.exports = eleventyConfig => {
 
   return {
     // Use liquid in html templates
-    htmlTemplateEngine: "liquid"
+    htmlTemplateEngine: "liquid",
+    pathPrefix: "/blog-eleventy/",
+    dir: {
+      output: "docs"
+    }
   };
 };
