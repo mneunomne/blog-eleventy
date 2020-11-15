@@ -5,9 +5,9 @@
   "scripts": {
     "build": "env NODE_ENV=production eleventy --pathprefix '/blog-eleventy/' && npm run sass",
     "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",
-    "sass": "node-sass --output  _site/styles/ styles/",
+    "sass": "node-sass --output  docs/styles/ styles/",
     "sass:watch": "npm run sass && npm run sass -- -w",
-    "clean": "rm -rf _site",
+    "clean": "rm -rf docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
