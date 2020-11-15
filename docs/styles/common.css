@@ -1,10 +1,10 @@
 ::selection {
   color: white;
-  background-color: black; }
+  background-color: brown; }
 
 ::-moz-selection {
   color: white;
-  background-color: gray; }
+  background-color: brown; }
 
 * {
   margin: 0;
@@ -20,15 +20,18 @@ body {
   .container blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: gray;
+    color: brown;
     border-left: 0.25em solid; }
 
 a {
   text-decoration: none;
-  color: gray; }
+  color: brown; }
   a:hover {
     cursor: pointer;
     text-decoration: underline; }
+
+img {
+  max-width: 600px; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
