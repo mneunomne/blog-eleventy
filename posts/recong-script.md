@@ -1,6 +1,7 @@
 ---
 date: "2020-11-14"
 title: Recong Script
+tags: ["posts", "script", "language"]
 ---
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kerinci_MSS_detail.jpg/320px-Kerinci_MSS_detail.jpg)

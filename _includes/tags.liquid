@@ -15,40 +15,48 @@
   </head>
   <body>
     <div class="container">
-      <h2>notes</h2>
+      <h2>“{{ tag }}”</h2>
       {{ content }}
       <br/>
+
       <ul class="tags">
+        <li><a href="/blog-eleventy/" class="tag">all</a></li>
         {% for post in collections.posts %}
-          {% for tag in post.data.tags %}
-            {% if tag != "posts" %}
-              {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
-              <li><a href="{{ tagUrl | url }}"class="tag">{{ tag }}</a></li>
+          {% for _tag in post.data.tags %}
+            {% if _tag != tag %}
+              {% if _tag != "posts" %}
+                {% capture tagUrl %}/tags/{{ _tag }}/{% endcapture %}
+                <li><a href="{{ tagUrl | url }}"class="tag">{{ _tag }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         {% endfor %}
       </ul>
       
       <br/>
-      
+
       <h4 class="category">Posts</h4>
       {% assign current_filter = "posts" %}
       <ul class="posts">
       {% for post in collections.posts reversed %}
-        <li class="post">
-          <span class="post-title">
-            {% if post.data.externalLink %}
-              <a href="{{ post.data.externalLink }}" target="__blank">{{ post.data.title }}</a>
-            {% else %}
-              <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            {% endif %}
-          </span>
+        {% if post.data.tags contains tag %}
+
+          <li class="post">
+            <span class="post-title">
+              {% if post.data.externalLink %}
+                <a href="{{ post.data.externalLink }}" target="__blank">{{ post.data.title }}</a>
+              {% else %}
+                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+              {% endif %}
+            </span>
           <span class="post-date">
-            {{ post.date | date: "%b %d %Y" }}
+            {{ post.date | date: "%b %d %Y" | downcase }}
           </span>
         </li>
+        {% endif %}
       {% endfor %}
     </ul>
-    </div>
-  </body>
+    
+  </div>
+</body>
 </html>

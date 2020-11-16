@@ -30,6 +30,14 @@ a {
     cursor: pointer;
     text-decoration: underline; }
 
+ul.tags li {
+  display: inline; }
+
+.tag {
+  color: brown;
+  font-style: italic;
+  margin-right: 4px; }
+
 img {
   max-width: 600px; }
 

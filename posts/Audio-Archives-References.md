@@ -1,6 +1,7 @@
 ---
 date: "2020-11-14"
 title: Audio Archives References
+tags: ["posts", "audio", "archive"]
 ---
 
 links

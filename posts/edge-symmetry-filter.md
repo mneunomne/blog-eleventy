@@ -1,6 +1,7 @@
 ---
 date: "2020-11-14"
 title: Edge and Symmetry filter
+tags: ["posts","computer vision", "filter"]
 ---
 
 ![Edge and Symmetry filter](https://imagejdocu.tudor.lu/_media/plugin/stacks/3d_ij_suite/edgeandsymmetry.png)

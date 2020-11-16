@@ -19,11 +19,24 @@
       <div class="back-link">
         <a href="/blog-eleventy/">← Back</a>
       </div>
-      <h2>{{ title }}</h2><br>
+      <h2>{{ title }}</h2>
+      <br>
+      <ul class="tags">
+        {% for tag in tags %}
+          {% if tag != "posts" %}
+            {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+            <li><a href="{{ tagUrl | url }}"class="tag">{{ tag }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      
+      <br/>
+      
       <div class='content'>{{ content }}</div>
       <div class="back-link">
         <a href="/blog-eleventy/">← Back</a>
       </div>
+
     </div>
   </body>
 </html>

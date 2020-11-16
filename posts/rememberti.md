@@ -1,6 +1,7 @@
 ---
 date: "2020-11-13"
 title: Rememberti
+tags: ["posts", "bremen", "maps"]
 ---
 
 [eine Veranstaltungsreihe um einen innerstädtischen Verkehrsknoten: den Bremer Rembertiring](https://rememberti.de/)
