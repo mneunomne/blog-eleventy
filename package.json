@@ -8,7 +8,8 @@
     "sass": "node-sass --output  docs/styles/ styles/",
     "sass:watch": "npm run sass && npm run sass -- -w",
     "clean": "rm -rf docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post": "npm run build && git add . && git commit -m 'content-edit' && git push -u origin gh-pages"
   },
   "keywords": [],
   "author": "Arpit Batra (arpitbatra123@gmail.com)",
