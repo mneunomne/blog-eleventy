@@ -10,6 +10,10 @@
   }
 
   .content {
+    * {
+      margin: revert;
+      padding: revert;
+    }
     line-height: 22px;
     h2 {
       margin: 24px 0 8px;

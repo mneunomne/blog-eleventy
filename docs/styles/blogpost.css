@@ -8,6 +8,9 @@
       color: #a8a8a8; }
   .post-container .content {
     line-height: 22px; }
+    .post-container .content * {
+      margin: revert;
+      padding: revert; }
     .post-container .content h2 {
       margin: 24px 0 8px;
       font-weight: normal;
