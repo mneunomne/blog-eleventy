@@ -1,7 +1,7 @@
 ---
 date: "2020-11-16"
 title: The Critical Engineering Manifesto
-tags: ["posts", "manifesto", "engineering"]
+tags: ["posts", "manifesto", "engineering", "tdwftw"]
 ---
 
 # THE CRITICAL ENGINEERING MANIFESTO
@@ -37,3 +37,5 @@ tags: ["posts", "manifesto", "engineering"]
 
 
 10. O Engenheiro Crítico considera a exploração a mais desejável forma de exposição.
+
+[Link](criticalengineering.org)
