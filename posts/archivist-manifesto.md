@@ -3,10 +3,7 @@ date: "2020-11-17"
 title: Archivist Manifesto
 tags: ["posts", "manifesto", "archive", "yuk hui", "tdwftw"]
 ---
-
-# Archivist Manifesto
-
-Yui Hui, 2013
+*Yui Hui, 2013*
 
 [Link](https://www.metamute.org/editorial/lab/archivist-manifesto)
 

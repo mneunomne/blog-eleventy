@@ -5,13 +5,14 @@ tags: ["posts","news", "archive", "tdwftw"]
 ---
 
 
-### [Islamic State propaganda 'hidden on Internet Archive](https://www.bbc.com/news/technology-44112431)
+## Islamic State propaganda 'hidden on Internet Archive
 
-```
-"The use of [the Internet Archive] has allowed the group to achieve persistence whenever content posted to a site such as justpaste.it is removed for violating terms of service," wrote Ken Wolf, senior analyst at Flashpoint.
+[Link](https://www.bbc.com/news/technology-44112431)
 
-"In addition, the data suggests that rather than waiting for these pages to be archived by the service's web crawler, members are actively archiving pages after creating them.
+> "The use of [the Internet Archive] has allowed the group to achieve persistence whenever content posted to a site such as justpaste.it is removed for violating terms of service," wrote Ken Wolf, senior analyst at Flashpoint.
+> 
+> "In addition, the data suggests that rather than waiting for these pages to be archived by the service's web crawler, members are actively archiving pages after creating them.
+>
+> "This is evidenced by links to archived sites appearing in the same post as the link to the original content."
 
-"This is evidenced by links to archived sites appearing in the same post as the link to the original content."
-```
 

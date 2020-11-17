@@ -1,6 +1,6 @@
 ::selection {
-  color: white;
-  background-color: brown;
+  // color: white;
+  // background-color: brown;
 }
 
 ::-moz-selection {
@@ -14,9 +14,11 @@
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
+  // font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-weight: 400;
   color: #394655;
-  background: #fffef7;
+  background: #ffffff;
 }
 
 .container {
@@ -24,18 +26,19 @@ body {
   blockquote {
     margin: 16px 0;
     padding: 0 1em;
-    color: brown;
-    border-left: 0.25em solid;
+    color: black;
+    border: none;
   }
 }
 
 a {
   text-decoration: none;
-  color: brown;
+  color: rgb(49, 49, 49);
 
   &:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: black;
   }
 }
 
@@ -46,7 +49,6 @@ ul.tags {
 }
 
 .tag {
-  color: brown;
   font-style: italic;
   margin-right: 4px;
 }
