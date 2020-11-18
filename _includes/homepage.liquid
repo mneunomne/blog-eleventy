@@ -20,13 +20,11 @@
       {{ content }}
       <br/>
       <ul class="tags">
-        {% for post in collections.posts %}
-          {% for tag in post.data.tags %}
-            {% if tag != "posts" %}
-              {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
-              <li><a href="{{ tagUrl | url }}"class="tag">{{ tag }}</a></li>
-            {% endif %}
-          {% endfor %}
+        {% for tag in collections.tagList %}
+          {% if tag != "posts" and tag %}
+            {% capture tagUrl %}/tags/{{ tag }}/{% endcapture %}
+            <li><a href="{{ tagUrl | url }}"class="tag">{{ tag }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
       

@@ -22,11 +22,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #313131; }
+  color: brown; }
   a:hover {
     cursor: pointer;
-    text-decoration: underline;
-    color: black; }
+    text-decoration: underline; }
 
 ul.tags li {
   display: inline; }

@@ -16,21 +16,19 @@
   </head>
   <body>
     <div class="container">
-      <h2>“{{ tag }}”</h2>
+      <h2><i>{{ tag }}</i></h2>
       {{ content }}
       <br/>
 
       <ul class="tags">
         <li><a href="/blog-eleventy/" class="tag">all</a></li>
-        {% for post in collections.posts %}
-          {% for _tag in post.data.tags %}
-            {% if _tag != tag %}
-              {% if _tag != "posts" %}
-                {% capture tagUrl %}/tags/{{ _tag }}/{% endcapture %}
-                <li><a href="{{ tagUrl | url }}"class="tag">{{ _tag }}</a></li>
-              {% endif %}
+        {% for _tag in collections.tagList %}
+          {% if _tag != tag %}
+            {% if _tag != "posts" %}
+              {% capture tagUrl %}/tags/{{ _tag }}/{% endcapture %}
+              <li><a href="{{ tagUrl | url }}"class="tag">{{ _tag }}</a></li>
             {% endif %}
-          {% endfor %}
+          {% endif %}
         {% endfor %}
       </ul>
       

@@ -4,8 +4,6 @@ title: The Critical Engineering Manifesto
 tags: ["posts", "manifesto", "engineering", "tdwftw"]
 ---
 
-# THE CRITICAL ENGINEERING MANIFESTO
-
 0. O Engenheiro Crítico considera a Engenharia a linguagem mais transformadora do nosso tempo, moldando a maneira como nos movemos, comunicamos e pensamos. É função do Engenheiro Crítico estudar e explorar esta linguagem, bem como expor sua influência.
 
 

@@ -47,7 +47,7 @@ In contrary, Fürsorgen is at the same time worries of not being able to be ther
 
  
 
-## technics
+## Technics
 
  
 
