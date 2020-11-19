@@ -13,7 +13,8 @@ body {
   background: #ffffff; }
 
 .container {
-  margin: 21px 2%; }
+  margin: 21px 2%;
+  max-width: 900px; }
   .container blockquote {
     margin: 16px 0;
     padding: 0 1em;
