@@ -1,6 +1,6 @@
 ---
 date: "2020-11-19"
-title: Pots and Alphabets
+title: First notes for tdwftw
 tags: ["posts", "language", "archive", "tdwftw"]
 ---
 
