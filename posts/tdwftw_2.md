@@ -1,3 +1,9 @@
+---
+date: "2020-12-03"
+title: Thoughts on Echoes
+tags: ["posts", "tdwftw", "hfk", "echoes"]
+---
+
 # Echoes
 
 Before going to any details I am trying to define this project in one sentence.
